@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    border: 0%;
+}
+
+body {
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav1 {
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: fantasy;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+#nav1 :hover {
+    color: #b10000;
+}
+
+.cls {
+    margin-right: 90px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b10000;
+    font-size: 90px;
+    font-family: fantasy;
+    margin-top: 150px;
+    text-shadow: -1px 2px #ffffff;
+}
+
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    width: 1000px;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+#div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#igao {
+    border-radius: 600px;
+    border: 3px solid #ffffff;
+}
+
+#div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: fantasy;
+    margin-bottom: 50px;
+}
+
+#platina {
+    margin-left: 5px;
+}

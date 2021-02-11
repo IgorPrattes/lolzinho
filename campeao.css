@@ -1,0 +1,99 @@
+* {
+    margin: 0%;
+    border: 0%;
+}
+
+body {
+    background-image: url(imagens/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+#nav1 {
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 1px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: fantasy;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+#nav1 :hover {
+    color: #ff4800;
+}
+
+.cls {
+    margin-right: 90px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff4800;
+    font-size: 80px;
+    font-family: fantasy;
+    margin-top: 120px;
+    text-shadow: -1px 2px #ffffff;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+select {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000a8;
+    color: #ffffff;
+    outline: none;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#champ {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article{
+    width: 95%;
+    border-radius: 2em;
+    line-height: 2em;
+    color: rgb(240, 240, 240);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+article a:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+td{ padding: 10px; }
+
+.spells img{
+	width: 64px;
+	border-radius: 50%;
+	transition: 1s;
+}
+
+.spells img:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	box-shadow: 0px 0px 5px 5px black;
+}
